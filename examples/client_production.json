@@ -1,0 +1,18 @@
+{
+  "client": {
+    "default_timeout_ms": 5000,
+    "max_retries": 3,
+    "load_balance_strategy": "weighted_round_robin"
+  },
+  "connection_pool": {
+    "min_connections": 5,
+    "max_connections": 100,
+    "idle_timeout_seconds": 240,
+    "cleanup_interval_seconds": 60
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "/var/log/frpc/client.log",
+    "console": false
+  }
+}

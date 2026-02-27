@@ -1,0 +1,28 @@
+{
+  "server": {
+    "listen_addr": "127.0.0.1",
+    "listen_port": 8080,
+    "max_connections": 1000,
+    "idle_timeout_seconds": 60,
+    "worker_threads": 1
+  },
+  "connection_pool": {
+    "min_connections": 1,
+    "max_connections": 20,
+    "idle_timeout_seconds": 30,
+    "cleanup_interval_seconds": 15
+  },
+  "health_check": {
+    "interval_seconds": 5,
+    "timeout_seconds": 2,
+    "failure_threshold": 2,
+    "success_threshold": 1
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file": "logs/server_dev.log",
+    "console": true,
+    "max_file_size_mb": 10,
+    "max_files": 3
+  }
+}

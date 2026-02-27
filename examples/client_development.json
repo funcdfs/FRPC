@@ -1,0 +1,17 @@
+{
+  "client": {
+    "default_timeout_ms": 10000,
+    "max_retries": 1,
+    "load_balance_strategy": "round_robin"
+  },
+  "connection_pool": {
+    "min_connections": 1,
+    "max_connections": 10,
+    "idle_timeout_seconds": 30,
+    "cleanup_interval_seconds": 15
+  },
+  "logging": {
+    "level": "DEBUG",
+    "console": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "default_timeout_ms": 5000,
+  "max_retries": 3,
+  "load_balance_strategy": "round_robin"
+}

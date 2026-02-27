@@ -1,0 +1,26 @@
+{
+  "server": {
+    "listen_addr": "0.0.0.0",
+    "listen_port": 8080,
+    "max_connections": 10000,
+    "idle_timeout_seconds": 300,
+    "worker_threads": 4
+  },
+  "client": {
+    "default_timeout_ms": 5000,
+    "max_retries": 3,
+    "load_balance_strategy": "round_robin"
+  },
+  "pool": {
+    "min_connections": 1,
+    "max_connections": 100,
+    "idle_timeout_seconds": 60,
+    "cleanup_interval_seconds": 30
+  },
+  "health_check": {
+    "interval_seconds": 10,
+    "timeout_seconds": 3,
+    "failure_threshold": 3,
+    "success_threshold": 2
+  }
+}

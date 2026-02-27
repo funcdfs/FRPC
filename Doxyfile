@@ -1,0 +1,78 @@
+# Doxyfile for FRPC Framework
+
+# 项目信息
+PROJECT_NAME           = "FRPC Framework"
+PROJECT_NUMBER         = "1.0.0"
+PROJECT_BRIEF          = "基于 C++20 协程的高性能 RPC 框架"
+OUTPUT_DIRECTORY       = docs
+
+# 输入配置
+INPUT                  = include/ src/ README.md
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp *.md
+EXCLUDE_PATTERNS       = */build/* */tests/* */examples/*
+
+# 输出格式
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+
+# 提取配置
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+# 文档配置
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+MULTILINE_CPP_IS_BRIEF = NO
+INHERIT_DOCS           = YES
+SEPARATE_MEMBER_PAGES  = NO
+TAB_SIZE               = 4
+
+# 构建配置
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = include/
+
+# 图形配置
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 4
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+GRAPHICAL_HIERARCHY    = YES
+DIRECTORY_GRAPH        = YES
+
+# 警告配置
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+
+# 源代码浏览
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+# 字符编码
+INPUT_ENCODING         = UTF-8
+OUTPUT_LANGUAGE        = Chinese
+
+# 搜索引擎
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
+
+# 示例配置
+EXAMPLE_PATH           = examples/
+EXAMPLE_PATTERNS       = *.cpp *.h
+EXAMPLE_RECURSIVE      = YES
