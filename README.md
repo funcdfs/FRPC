@@ -74,20 +74,16 @@ RpcTask<void> call_service() {
 
 ## 文档
 
-完整文档请查看 **[DOCUMENTATION.md](DOCUMENTATION.md)** 获取文档导航。
+完整文档请查看 **[docs/](docs/)** 目录。
 
-### 核心文档
+**快速导航**：
+- 📖 [文档索引](docs/00-index.md) - 从这里开始
+- 🎯 [框架介绍](docs/01-introduction.md) - 了解 FRPC
+- 🚀 [快速开始](docs/02-quick-start.md) - 5 分钟上手
+- 📘 [使用指南](docs/04-user-guide.md) - 详细说明
+- 🔧 [故障排查](docs/08-troubleshooting.md) - 问题解决
 
-- [**文档索引**](docs/00-index.md) - 📖 从这里开始
-- [**介绍**](docs/01-introduction.md) - 🎯 框架概述
-- [**快速开始**](docs/02-quick-start.md) - 🚀 5 分钟上手
-- [**架构设计**](docs/03-architecture.md) - 🏗️ 架构原理
-- [**使用指南**](docs/04-user-guide.md) - 📘 详细使用说明
-- [**配置说明**](docs/05-configuration.md) - ⚙️ 配置参数
-- [**数据模型**](docs/06-data-models.md) - 📦 数据结构
-- [**最佳实践**](docs/07-best-practices.md) - ⭐ 使用建议
-- [**故障排查**](docs/08-troubleshooting.md) - 🔧 问题解决
-- [**API 参考**](docs/09-api-reference.md) - 📚 API 文档
+**完整文档列表**：[docs/README.md](docs/README.md)
 
 ## 示例程序
 
